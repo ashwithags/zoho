@@ -1,0 +1,64 @@
+.reister {
+    background-color: rgba(241, 241, 241, 0.69);
+    padding: 40px;
+    margin-top: 20%;
+}
+h1.title {
+    text-align: center;
+    line-height: 45px;
+}
+.reister input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(37, 33, 33, 0.16);
+    padding: 15px;
+    border: 0px;
+}
+.reister input[type=number]::-webkit-inner-spin-button, 
+.reister input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.reister ::placeholder {
+    color: #FFF;
+}
+.container-fluid.login {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),url(https://image.freepik.com/free-photo/crop-man-working-with-laptop_23-2147689387.jpg);    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+button.btn-signUp {
+    width: 150px;
+    padding: 11px;
+    background-color: rgba(114, 114, 115, 0.59);
+    float: right;
+    border: 0px solid #f2f2f2;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin: auto !important;
+}
+.welcome-msg{
+    text-align: center;
+    color: #fff;
+    font-size: 29px;
+}
+.navbar-brand{
+    height: auto;
+}
+img.logo {
+    width: 100px;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 20px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px !important;
+
+.container-fluid{
+padding: 0px;}

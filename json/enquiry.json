@@ -1,0 +1,82 @@
+[
+  {
+    "enquirey_unique_no": "1",
+    "enquired_username": "Sunny",
+    "enquired_user_location": "k.s.layout",
+    "enquired_user_city": "Bangalore",
+    "enquired_user_phnno": 9036197191,
+    "enquired_category": "AngularJS",
+    "enquired_addons": {
+      "requirement": "AngularJS",
+      "hiring": "Just Exploring",
+      "preferences": "Wiling to travel"
+    },
+    "timestamp": "11:25:45",
+    "current_stat": "enquery",
+    "message_vender": "Hi,we can help you for this requirement.we have a classroom training module on .Please contact us at .Thanks and regards"
+  },
+  {
+    "enquirey_unique_no": "2",
+    "enquired_username": "Ram",
+    "enquired_user_location": "Banashankari",
+    "enquired_user_city": "Bangalore",
+    "enquired_user_phnno": 8956896569,
+    "enquired_category": "Web Development",
+    "enquired_addons": {
+      "requirement": "Web Development",
+      "hiring": "Just Exploring",
+      "preferences": "Wiling to travel"
+    },
+    "timestamp": "9:45:36",
+    "current_stat": "enquery",
+    "message_vender": "Hi,we can help you for this requirement.we have a classroom training module on .Please contact us at .Thanks and regards"
+  },
+  {
+    "enquirey_unique_no": "3",
+    "enquired_username": "Shyam",
+    "enquired_user_location": "JP nagar",
+    "enquired_user_city": "Bangalore",
+    "enquired_user_phnno": 7894561230,
+    "enquired_category": "Java ",
+    "enquired_addons": {
+      "requirement": "Java",
+      "hiring": "Just Exploring",
+      "preferences": "Wiling to travel"
+    },
+    "timestamp": "12:12:36",
+    "current_stat": "enquery",
+    "message_vender": "Hi,we can help you for this requirement.we have a classroom training module on .Please contact us at .Thanks and regards"
+  },
+  {
+    "enquirey_unique_no": "4",
+    "enquired_username": "Rohit",
+    "enquired_user_location": "JP nagar",
+    "enquired_user_city": "Bangalore",
+    "enquired_user_phnno": 8965327418,
+    "enquired_category": "C++ ",
+    "enquired_addons": {
+      "requirement": "C++",
+      "hiring": "Just Exploring",
+      "preferences": "Wiling to travel"
+    },
+    "timestamp": "20:25:22",
+    "current_stat": "enquery",
+    "message_vender": "Hi,we can help you for this requirement.we have a classroom training module on .Please contact us at .Thanks and regards"
+  },
+  {
+    "enquirey_unique_no": "5",
+    "enquired_username": "",
+    "enquired_user_location": "Jayanagar",
+    "enquired_user_city": "Bangalore",
+    "enquired_user_phnno": 7894561275,
+    "enquired_category": "Machine Learning",
+    "enquired_addons": {
+      "requirement": "Machine Learning",
+      "hiring": "Just Exploring",
+      "preferences": "Wiling to travel"
+    },
+    "timestamp": "14:22:42",
+    "current_stat": "enquery",
+    "message_vender": "Hi,we can help you for this requirement.we have a classroom training module on .Please contact us at .Thanks and regards"
+  }
+]

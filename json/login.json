@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "message": "Success",
+  "logins": [
+				{
+				  "name": "Ashwitha G S",
+				  "username": "gs",
+				  "mobile": "123",
+				  "email": "ashwithags@gmail.com",
+				  "profile-pic": "img/ashwitha.jpg"
+				},
+				{
+				  "name": "Manasa",
+				  "username": "bi",
+				  "mobile": "123",
+				  "email": "manasa@gmail.com",
+  				  "profile-pic": "img/ashwitha.jpg"
+				},
+				{
+				  "name": "hai",
+				  "username": "hi",
+				  "mobile": "123",
+				  "email": "123@gmail.com",
+  				  "profile-pic": "img/ashwitha.jpg"
+
+				}
+			]
+}

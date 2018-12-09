@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "Message": "Success",
+  "questions": [
+    {
+      "question": "What are the key components of Bootstrap?",
+      "choices": [
+        "Scaffolding List of layout components Plugins",
+        "Customize your components Scaffolding"
+      ],
+      "correct": "Scaffolding List of layout components Plugins"
+    },
+  
+    {
+      "question": "Bootstrap 3 is mobile-first.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct": "Yes"
+    },
+    {
+      "question": "The Bootstrap grid system is based on how many columns?",
+      "choices": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "correct": 12
+    },
+    {
+      "question": "Which class shapes an image to a circle?",
+      "choices": [
+        "img-thumbnail",
+        "img-circle",
+        "img-rounded",
+        "img-round"
+      ],
+      "correct": "img-rounded"
+    }
+  ]
+}
