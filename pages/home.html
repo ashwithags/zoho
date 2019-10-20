@@ -5,13 +5,48 @@
 </div>
 
 <div class="col-lg-9">
-	<div class="col-lg-6">
-		<div class="profile">
-			<p class="name">helllbhhho</p>
-
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+	EDIT
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document" style="width: 1000px">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
 		</div>
-		yggg
+		<div class="modal-body">
+			<table class="table">
+				<thead>
+				  <tr>
+					<th scope="col">Order ID</th>
+					<th scope="col">GMP File</th>
+					<th scope="col">Sratus</th>
+					<th scope="col">Comments</th>
+				  </tr>
+				</thead>
+				<tbody>
+				
+				 <tr ng-repeat="row in table.rows track by $index">
+					<td><input type="text" ng-disabled="isDis" ng-model="row.order" ></td>
+					<td><input type="text" ng-disabled="isDis" ng-model="row.file" ></td>
+					<td><input type="text" ng-disabled="isDis" ng-model="row.status"></td>
+					<td><input type="text" ng-disabled="isDis" ng-model="row.Comments"></td>
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" ng-click="addNewRow(table)">Add New Row</button>
+		  <button type="button" class="btn btn-primary" ng-click = "saveData(row)">Save changes</button>
+		  <button type="button" class= "btn btn-primary" data-dismiss="modal">close</button>
+		</div>
+	  </div>
 	</div>
-	
-</div>
+  </div>
 </div>

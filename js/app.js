@@ -11,6 +11,7 @@ angular.module('Zoho', ['ui.router','Zoho.controllers','Zoho.services','Zoho.dir
 		.state('homepage',{
 			url: '/home',
 			templateUrl : 'pages/home.html',
+			controller: 'homeController'
 		})
 		.state('profile',{
 			url: '/my-profile',

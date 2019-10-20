@@ -64,3 +64,26 @@ angular.module('Zoho.controllers', [])
 		})
 
 })
+
+.controller('homeController',function($scope){
+	$scope.table=[{name: "table 1"}];
+
+	$scope.isDis= false;
+	$scope.table.rows = [{}];
+  $scope.row = {};
+	$scope.addNewRow=function(table){
+		$scope.isDis= false;
+
+		table.rows.push({});
+	}
+
+	$scope.saveData=function(data){
+		$scope.table.rows.push(data);
+		$scope.table.rows.pop();
+		console.log($scope.table.rows);
+		$scope.isDis= true;
+		console.log($scope.isDis);
+	}
+	
+	console.log($scope.table);
+})
